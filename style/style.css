@@ -31,11 +31,13 @@ header {
    position: relative;
    top: 20px;
  }
- 
- h3 {
-    color: white;
-    display: inline-block;
+
+.links-contacto{
+   color: white;
+   background-color: rgba(30,79,109,255);
+   padding: 20px;
  }
+ 
  
  nav {
     display: inline-block;
