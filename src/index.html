@@ -17,18 +17,38 @@
             <img src="../assets/codoacodo.png" alt="Imagen de la pagina de codo a codo" loading="lazy">
             <h2>Conf Bs As</h2>
         </div>
-        <nav>
-            <a href="#">La conferencia</a>
-            <a href="#oradores">Los Oradores</a>
-            <a href="#lugarFecha">El lugar y la fecha</a>
-            <a href="#nuevoOrador">Conviertete en orador</a>
-            <a class="boton-comprar" href="comprarTicket.html">Comprar Tickets</a>
-        </nav>
+
+        <nav class="navbar navbar-expand-lg bg-body-black">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#conferencia">La conferencia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#conferencia">La conferencia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#lugaryfecha">El lugar y la fecha</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#orador-formulario">Conviertete en orador</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Comprar Tickets</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 
     <main>
-        <section>
-                <img src="../assets/hawaii.jpg" alt="Imagen del palacio de las aguas en Buenos Aires" loading="lazy" class="">
+        <section class="fondo">
                 <div class="container-conferencia">
                     <h1>Conf Bs As</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, et! Qui ex aspernatur aliquam
@@ -44,35 +64,37 @@
             <h4>Conoce a los oradores</h4>
             <h3>Oradores</h3>
 
-            <div class="card">
-                <img src="../assets/steve.jpg" alt="">
-                <a href="">Javascript</a>
-                <a href="">"React"</a>
-                <h4>Steve Jobs</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad earum, nemo quia magnam error ab
-                    similique soluta culpa omnis labore nam repellendus inventore consectetur, pariatur esse dicta,
-                    itaque ut debitis.</p>
-            </div>
+            <div class="d-flex justify-content-around">
+                <div class="card">
+                    <img src="../assets/steve.jpg" alt="">
+                    <a href="">Javascript</a>
+                    <a href="">"React"</a>
+                    <h4>Steve Jobs</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad earum, nemo quia magnam error ab
+                        similique soluta culpa omnis labore nam repellendus inventore consectetur, pariatur esse dicta,
+                        itaque ut debitis.</p>
+                    </div>
 
-            <div class="card">
-                <img src="../assets/bill.jpg" alt="">
+                    <div class="card">
+                        <img src="../assets/bill.jpg" alt="">
                 <a href="">Javascript</a>
                 <a href="">"React"</a>
                 <h4>Bill gates</h4>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad earum, nemo quia magnam error ab
                     similique soluta culpa omnis labore nam repellendus inventore consectetur, pariatur esse dicta,
                     itaque ut debitis.</p>
-            </div>
-
-            <div class="card">
-                <img src="../assets/ada.jpeg" alt="">
-                <a href="">Javascript</a>
-                <a href="">"React"</a>
-                <h4>Ada lovelace</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad earum, nemo quia magnam error ab
-                    similique soluta culpa omnis labore nam repellendus inventore consectetur, pariatur esse dicta,
-                    itaque ut debitis.</p>
-            </div>
+                </div>
+                
+                <div class="card">
+                    <img src="../assets/ada.jpeg" alt="">
+                    <a href="">Javascript</a>
+                    <a href="">"React"</a>
+                    <h4>Ada lovelace</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad earum, nemo quia magnam error ab
+                        similique soluta culpa omnis labore nam repellendus inventore consectetur, pariatur esse dicta,
+                        itaque ut debitis.</p>
+                    </div>
+                </div>
         </section>
     </main>
 
