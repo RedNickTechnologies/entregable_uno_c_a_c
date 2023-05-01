@@ -1,3 +1,9 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
 header {
     background: #353A40;
     display: inline-block;
@@ -22,15 +28,26 @@ header {
  }
  
  .logo img {
-    height: 75px;
+    height: 65px;
     vertical-align: middle;
     margin-left: 10px;
  }
- 
- h2 {
-    color: white;
-    display: inline-block;
+
+ #lugaryfecha{
+   object-fit: cover;
  }
+
+ .acomodar{
+   position: relative;
+   top: 20px;
+ }
+
+.links-contacto{
+   color: white;
+   background-color: rgba(30,79,109,255);
+   padding: 20px;
+ }
+ 
  
  nav {
     display: inline-block;
@@ -65,17 +82,9 @@ header {
  .first-paragraph{
     padding: 10px;
  }
- 
- .enlace-1 {
-    padding: 10px;
-    border: 2px solid white;
-    border-radius: 5px;
- }
- 
- .enlace-2 {
-    padding: 10px;
-    border-radius: 5px;
-    background-color: green;
+
+ .form-orador{
+   padding: 60px;
  }
  
  h3,
@@ -84,14 +93,14 @@ header {
  }
  
  .card {
-    width: 200px;
-    display: inline-block;
-    padding: 20px;
- 
+    width: 250px;
+    position: relative;
+    left:150px;
+    top: 50px;
  }
  
  .card img {
-    width: 100%;
+    width: 250px;
  }
  
  #lugar {
