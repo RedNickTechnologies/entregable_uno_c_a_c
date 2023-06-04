@@ -1,5 +1,5 @@
 var botones = [];
-botones = document.getElementsByClassName('appendable');
+precios = document.getElementsByClassName('precios');
 
 for(var i=0; i<botones.length ;i++) {
 

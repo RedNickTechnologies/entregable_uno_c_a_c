@@ -4,6 +4,12 @@
    box-sizing: border-box;
 }
 
+.conteiner-box {
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
+
 header {
     background: #353A40;
     display: inline-block;
@@ -11,6 +17,18 @@ header {
     position: fixed;
     top: 0;
     z-index: 10;
+ }
+
+ #oradores{
+   display: block;
+   position: relative;
+   right: 80px; 
+ }
+
+ .precios{
+   display: block;
+   position: relative;
+   right: 140px;   
  }
 
  .fondo{
