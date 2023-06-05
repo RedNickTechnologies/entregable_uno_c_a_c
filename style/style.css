@@ -19,6 +19,16 @@ header {
     z-index: 10;
  }
 
+ .card-ventas{
+     border: 2px solid #ccc; /* Estilo inicial del borde */
+     padding: 10px;
+     cursor: pointer;
+   }
+ 
+   .card-ventas.clicked {
+     color: red; /* Estilo del borde cuando se hace clic */
+ }
+
  #oradores{
    display: block;
    position: relative;

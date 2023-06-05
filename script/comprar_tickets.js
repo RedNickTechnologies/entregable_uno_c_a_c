@@ -1,9 +1,9 @@
-var botones = [];
+var cartas = [];
 precios = document.getElementsByClassName('precios');
 
-for(var i=0; i<botones.length ;i++) {
+for(var i=0; i<cartas.length ;i++) {
 
-   botones[i].addEventListener('click',append);
+   cartas[i].addEventListener('click',append);
 }
 
 
