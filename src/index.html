@@ -137,40 +137,63 @@
             </div>
         </section>
 
-        <!--Seccion de tickets precios-->
-        <section id="tickets">
-            <article class="precios">
-                
-                <div class="d-flex justify-content-around">
-                    <div class="card opcion-1" style="height: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Estudiantes</h5>
-                            <p class="card-text">Tiene un 80% de descuento
-                            </p>
+        <!--Seccion de tickets y precios-->
+        <section>
+            <article>
+                <div id="tickets" class="tickets">
+                    <div class="container-tickets">
+                        <div class="tickets-category">
+                            <div class="estudiante">
+                                <h3>Estudiante</h3>
+                                <h5>Tiene un descuento</h5>
+                                <h2>80%</h2>
+                                <h6>* presentar documentación</h6>
+                            </div>
+                            <div class="trainee">
+                                <h3>Trainee</h3>
+                                <h5>Tiene un descuento</h5>
+                                <h2>50%</h2>
+                                <h6>* presentar documentación</h6>
+                            </div>
+                            <div class="junior">
+                                <h3>Junior</h3>
+                                <h5>Tiene un descuento</h5>
+                                <h2>15%</h2>
+                                <h6>* presentar documentación</h6>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card opcion-2 card-ventas" style="height: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Trainee</h5>
-                            <p class="card-text">Tiene un 50% de descuento
-                            </p>
+                        <div class="tickets-text">
+                            <h6>VENTA</h6>
+                            <h1>VALOR DE TICKET $200</h1>
                         </div>
-                    </div>
-                    <div class="card opcion-3 card-ventas" style="height: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Junior</h5>
-                            <p class="card-text">Tiene un 10% de descuento
-                            </p>
-                        </div>
+            
+            
+                        <form class="formTickets" action="">
+                            <div class="tickets-form">
+                                <input type="text" class="ticketsFirstName" name="Nombre" placeholder="Nombre">
+                                <input type="text" class="ticketsLastName" name="Apellido" placeholder="Apellido">
+                                <input type="email" class="ticketsEmail" name="Email" placeholder="E-mail">
+                                <div class="labelcantidadTickets">
+                                    <label for="Cantidad">Cantidad</label>
+                                    <input id="cantidadTickets" type="text" class="cantidadTickets" name="Cantidad"
+                                        placeholder="Cantidad">
+                                </div>
+                                <div class="labelCategoriaTickets">
+                                    <label for="Categoria">Categoria</label>
+                                    <select name="Categoria" class="CategoriaTickets">
+                                        <option value="Estudiante">Estudiante</option>
+                                        <option value="Trainee">Trainee</option>
+                                        <option value="Junior">Junior</option>
+                                    </select>
+                                </div>
+                                <output class="infoTickets"><span class="ticketsValue">Total a pagar: </span></output>
+                                <button id="ticketsBorrar" type="reset" class="btnTickets" name="Borrar">Borrar</button>
+                                <button id="ticketsResumen" class="btnTickets" name="Resumen">Resumen</button>
+                            </div>
+                        </form>
+            
                     </div>
                 </div>
-                <div class="position-absolute top-100 start-50 comprar">
-                    <div class="d-flex justify-content-center">
-                        <button type="button" class="btn btn-success"><a href="#precios">Comprar tickets</a></button>
-                    </div>
-                </div>
-
-
             </article>
         </section>
 
