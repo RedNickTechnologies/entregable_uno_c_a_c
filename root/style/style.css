@@ -10,6 +10,12 @@
    flex-direction: column;
 }
 
+.ordenaCards{
+   display: flex!important;
+   justify-content: space-evenly;
+   flex-wrap: wrap; 
+}
+
 header {
    background: #353A40;
    display: inline-block;
@@ -172,7 +178,7 @@ header {
 #oradores {
    display: block;
    position: relative;
-   right: 80px;
+/*right: 80px; Yo quitaría esta opción para que tome el ancho la pag */
 }
 
 .precios {
@@ -264,7 +270,7 @@ h4 {
 .card {
    width: 250px;
    position: relative;
-   left: 150px;
+   /* left: 150px;  Yo quitaria esta opción */
    top: 50px;
 }
 
